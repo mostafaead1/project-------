@@ -1,0 +1,85 @@
+.top-text h1 {
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+}
+.property-pros-title {
+  font-family: 'Safira March', serif;
+  text-transform: uppercase;
+}
+.carousel-item {
+  background-size: contain; /* بدل cover */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-item img {
+  width: 100% !important;
+  object-fit: cover !important;
+  max-height: 500px !important; /* default max-height */
+  height: auto !important;
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+    max-height: 250px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .carousel-item img {
+    max-height: 400px !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  .carousel-item img {
+    max-height: 500px !important;
+  }
+}
+body {
+  background-color: #fff1e7 !important;
+/*  font-family: 'Safira March', serif !important; */
+  font-family: 'Tajawal', sans-serif !important;
+}
+
+.footer {
+  background-color: #283851; /* غامق */
+  color: #f8f9fa; 
+  padding: 40px 0;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0d6efd;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.footer .form-control {
+  border-radius: 0;
+  border: none;
+}
+
+.footer .btn-primary {
+  border-radius: 0;
+  background-color: #c24444;
+  border: none;
+}
+
+.footer .btn-primary:hover {
+  background-color: #411717;
+}
+.navbar {
+background-color: #fff1e7 !important;}
+.custom-navbar {
+  background-color: #fff1e7 !important;
+}
